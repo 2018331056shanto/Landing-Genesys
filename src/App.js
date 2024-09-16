@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Frame1 from './component/Frame1/frame1';
+import Frame2 from './component/Frame2/Frame2';
+import Frame3 from './component/Frame3/Frame3';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Frame1/>
+    <Frame2/>
+    <Frame3/>
     </div>
   );
 }
