@@ -1,3 +1,4 @@
+import A from './abc';
 import Footer from './component/Footer/Footer';
 import Frame1 from './component/Frame1/frame1';
 import Frame10 from './component/Frame10/Frame10';
@@ -13,6 +14,8 @@ import Frame9 from './component/Frame9/Frame9';
 function App() {
   return (
     <div>
+
+      {/* <A/> */}
     <Frame1/>
      <Frame2/>
     <Frame3/>
