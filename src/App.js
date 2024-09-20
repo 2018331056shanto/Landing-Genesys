@@ -1,3 +1,4 @@
+import A from './abc';
 import Footer from './component/Footer/Footer';
 import Frame1 from './component/Frame1/frame1';
 import Frame10 from './component/Frame10/Frame10';
@@ -13,17 +14,19 @@ import Frame9 from './component/Frame9/Frame9';
 function App() {
   return (
     <div>
+
+      {/* <A/> */}
     <Frame1/>
-    <Frame2/>
+     <Frame2/>
     <Frame3/>
     <Frame4/>
-    <Frame5/>
-    <Frame6/>
-    <Frame7/>
-    <Frame8/>
-    <Frame9/>
-    <Frame10/>
-    <Footer/>
+    {/* <Frame5/> */}
+    {/* <Frame6/> */}
+    {/* <Frame7/> */}
+    {/* <Frame8/> */}
+    {/* <Frame9/> */}
+    {/* <Frame10/> */}
+    {/* <Footer/>  */}
     </div>
   );
 }

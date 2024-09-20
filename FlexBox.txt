@@ -1,0 +1,89 @@
+FlexBox: FlexBox is a CSS box model to easily layout, align and distribute space among items within a Container either horizontally or vertically
+
+
+Flex Using in Container: Container means a box is serverd as parent box for many box inside items
+
+
+Flex-
+
+Flex-Direction (default row, column,row-reverse(reverse the order ),column-reverse)
+
+
+flex-Direction:row   1 2 3 4 
+
+flex-Direction: row-reverse 4 3 2 1
+
+flex-Direction:column  1
+                       2
+                       3
+                       4
+
+                
+flex-Direction:column-reverse 4
+                              3
+                              2
+                              1
+
+
+
+
+
+
+
+Wrap- (default nowrap,wrap)
+
+
+                        | 
+flex-nowrap:    1 2 3 4 5 6 7
+
+                        |
+flex-wrap:      1 2 3 4 5
+                6 7
+
+                                 |   
+flex-wrap-reverse(row):  1 2 3 4 5
+                         6 7
+                (ans):   ---------
+
+                         6 7
+                         1 2 3 4 5
+                         ---------
+                                 |
+
+
+flex-wrap-reverse(col): |1 6
+                        |2 7
+                        |3
+                        |4
+                        |5
+
+
+               (ans):   |        6 1|
+                        |        7 2|
+                        |          3|
+                        |          4|
+                        |          5|
+                             
+                
+justify-content; (start,end,center,space-between,space-evenly,space-around)
+
+
+                           _ _ _ _ _ _ _ 
+         (start)             1 2 3 4 5
+                                6 7
+                           _ _ _ _ _ _ _
+                ans():     1 2 3 4 5
+                           6 7
+                           
+                           _ _ _ _ _ _ _ 
+            end():         1 2 3 4 5
+                             6 8
+           ans()          _ _ _ _ _ _ _
+                              1 2 3 4 5
+                                    6 7
+            
+
+
+
+
+Flex in items (cross axis): align-start,align-end, align-center,(default align-stretch)

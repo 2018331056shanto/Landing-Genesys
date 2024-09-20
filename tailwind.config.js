@@ -4,6 +4,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        xsm: "400px",
+      },
       fontFamily: {
         montserrat: ["Montserrat"],
         lato: ["Lato"],
