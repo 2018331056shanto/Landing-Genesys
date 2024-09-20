@@ -2,10 +2,51 @@ import React from "react";
 import logo from "../../asset/logo/Valuetainment.svg";
 import img10 from "../../asset/img/img (10).png";
 const Frame8 = () => {
+
+
+  const masseges = [
+    {
+      title: "Leadership",
+      msg: "is vital from the top of corporations to the military to small businesses to parents to students. We all can be leaders.",
+    },
+    {
+      title: "Entrepreneurs",
+      msg: "are heroes who should be respected and celebrated for taking risks, launching products, creating jobs and building companies.",
+    },
+    {
+      title: "Capitalism ",
+      msg: "is a critically important economic system that has advanced society and the quality of life we enjoy today.",
+    },
+    {
+      title: "Debate",
+      msg: "is welcome and necessary as it can lead to consensus, epiphanies, and expose the truth. When a clash of ideas, often emotionally-charged, evolves into civil debate and objective processing of issues, everyone wins. Free speech is c",
+    },
+  ];
   return (
-    <div className="flex relative  items-center w-[1920px] h-[1056px] bg-gradient-to-r from-[#3B3B3B] to-black">
-      <div className="flex absolute justify-center items-center w-[826px] h-[826px] top-[2px] left-[1169px]">
-        <div className="flex w-[571.39px]   h-[706.97px]">
+    <div className="flex relative  items-center w-full min-h-screen bg-gradient-to-r from-[#3B3B3B] to-black">
+      <div className="flex absolute   justify-center items-center 
+      
+      lg:w-[826px]
+      md:w-[500px]
+
+
+      lg:h-[826px]
+      md:h-[500px]
+
+      lg:pl-[1200px]
+      md:pl-[750px]
+      sm:pl-[350px]
+      
+      ">
+        <div className="flex 
+        lg:w-[826px]  
+        md:w-[500px]
+        sm:w-[400px]
+
+        lg:h-[600px]
+        md:h-[500px]
+        sm:h-[400px]
+        ">
           <svg
             className="fill-[#EA2127] opacity-[.08]"
             xmlns="http://www.w3.org/2000/svg"
@@ -207,81 +248,54 @@ const Frame8 = () => {
           </svg>
         </div>
       </div>
-      <div className="flex relative  w-[1435px] justify-between left-[150px]  h-[741px]  ">
-        <div className="flex flex-col-reverse w-[641px] h-[741px]  ">
-          <div className="flex w-[641px] h-[652px] rounded-[12px] ">
+      <div className="flex relative  w-full justify-center  ">
+        <div className="flex  w-1/2 h-full   ">
+          <div className="flex 
+          h-[652px]
+        
+          
+          rounded-xl ">
             <img className="flex object-cover rounded-[12px]" src={img10} />
           </div>
         </div>
 
-        <div className="flex absolute w-[997px] h-[168px] top-[18px] left-[312px] ">
-          <p className="flex uppercase font-actRejection text-[139px] font-[400] leading-[168px] tracking-[1px] text-white">
+        <div className="flex absolute  justify-center w-fit h-fit  ">
+          <p className="flex uppercase font-actRejection 
+          
+          lg:text-9xl
+          md:text-6xl
+          sm:text-4xl
+          font-[400] leading-tight tracking-[1px] text-white">
             what we believe
           </p>
         </div>
-        <div className="flex relative pt-[20px]  items-end w-[743px] h-[741px] ">
-          <div className="flex pt-[20px] flex-col   relative justify-between w-[743px] h-[567px]">
-            <div className="flex relative border-b-[.5px]  w-[743px] h-[118px]  pt-[10px] pb-[24px] gap-[10px]">
-              <div className="flex w-[632px] h-[84px] items-start ">
-                <div className="w-full h-full  flex items-start gap-x-1">
-                  <p>
-                    <span className="font-montserrat font-[500] leading-[38.4px] tracking-[.005px] text-white text-[32px] mr-1">
-                      Leadership
-                    </span>
-                    <span className="font-inter font-[500] text-[16px] leading-[24px] tracking-[.005px] text-white opacity-80">
-                      is vital from the top of corporations to the military to
-                      small businesses to parents to students. We all can be
-                      leaders.
-                    </span>
-                  </p>
+        <div className="flex relative pt-[10px]   items-end w-fit  h-fit ">
+          <div className="flex pt-[20px] flex-col   relative justify-between flex-grow h-[567px]">
+            
+          {masseges.map((massage,id)=>{
+            return (
+              <div  key={id}className="flex relative border-b-[.5px]  h-fit    pt-[10px] pb-[24px] gap-[10px]">
+                <div className="flex  h-fit  items-start ">
+                  <div className="w-full h-full  flex items-start gap-x-1">
+                    <p>
+                      <span
+                        className="font-montserrat font-[500] leadin`g-tight  tracking-[.005px] text-white 
+                    text-[32px] mr-1"
+                      >
+                        {massage.title}
+                      </span>
+                      <span className="font-inter font-[500] text-[16px] leading-[24px] tracking-[.005px] text-white opacity-80">
+                       {massage.msg}
+                      </span>
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="flex  border-b-[.5px]  h-[93px] pt-[10px]  pb-[24px] gap-[16px]">
-              <div className="w-full h-full flex items-start gap-x-1">
-                <p >
-                  <span className="font-montserrat font-[500] leading-[38.4px] tracking-[.005px] text-white text-[32px] mr-1">
-                    Entrepreneurs
-                  </span>
-                  <span className="font-inter font-[500] text-[16px] leading-[24px] tracking-[.005px] text-white opacity-80">
-                    are heroes who should be respected and celebrated for taking
-                    risks, launching products, creating jobs and building
-                    companies.
-                  </span>
-                </p>
-              </div>
-            </div>
-            <div className="flex  border-b-[.5px]  h-[94px] pt-[10px] pb-[24px] gap-[10px]">
-              <div className="w-full flex items-start gap-x-1">
-                <p>
-                  <span className="font-montserrat font-[500] leading-[38.4px] tracking-[.005px] text-white text-[32px] mr-1">
-                    Capitalism
-                  </span>
-                  <span className="font-inter font-[500] text-[16px] leading-[24px] tracking-[.005px] text-white opacity-80">
-                    is a critically important economic system that has advanced
-                    society and the quality of life we enjoy today.
-                  </span>
-                </p>
-              </div>
-            </div>
-            <div className="flex  border-b-[.5px]  h-[118px] pt-[10px] pr-[10px] pb-[24px] gap-[10px]">
-              <div className="w-full flex items-start gap-x-1">
-                <p>
-                  <span className="font-montserrat font-[500] leading-[38.4px] tracking-[.005px] text-white text-[32px] mr-1">
-                    Debate
-                  </span>
-                  <span className="font-inter font-[500] text-[16px] leading-[24px] tracking-[.005px] text-white opacity-80">
-                    is welcome and necessary as it can lead to consensus,
-                    epiphanies, and expose the truth. When a clash of ideas,
-                    often emotionally-charged, evolves into civil debate and
-                    objective processing of issues, everyone wins. Free speech
-                    is critical to productive debate.
-                  </span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+            );
+          })}
+
+</div>
+</div>
       </div>
     </div>
   );

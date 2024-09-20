@@ -15,21 +15,35 @@ import ins from '../../asset/icon/instagram-logo (1).png'
 
 const Frame9 = () => {
   return (
-    <div className="flex justify-center items-center relative w-[1920px] h-[859px] bg-[#F6F5F5]">
-      <div className="flex items-center flex-col w-[1394px] h-[659px] ">
-        <div className="flex   justify-between w-[964px] h-[84px]  ">
-          <p className="flex text-[#060606] font-montserrat font-[600] text-[70px] leading-[84px] tracking-[.5px] uppercase">
+    <div className="flex justify-center items-center relative w-full min-h-screen bg-[#F6F5F5]">
+      <div className="flex items-center flex-col w-full h-fit ">
+        <div className="flex   justify-between wfit  h-fit   ">
+          <p
+            className="flex text-[#060606] font-montserrat font-[600] 
+          lg:text-6xl
+          md:text-4xl
+          sm:text-3xl 
+
+          
+          leading-tight tracking-[.5px] uppercase"
+          >
             product of
           </p>
           <p
             style={{ WebkitTextStroke: "1px black" }}
-            className="flex text-white font-montserrat font-[600] text-[70px] leading-[84px] tracking-[.5px] uppercase "
+            className="flex text-white font-montserrat font-[600] 
+            lg:text-6xl
+          md:text-4xl
+          sm:text-3xl 
+          
+          leading-tight
+          tracking-[.5px] uppercase "
           >
             the month
           </p>
         </div>
-        <div className="flex gap-[48px] items-end w-[1394px] b h-[659px] ">
-          <div className="flex gap-[48px] w-[1394px] h-[527px] ">
+        <div className="flex gap-[48px] items-end w-fit  b h-fit  ">
+          <div className="flex gap-[48px] w-fit  h-fit  ">
             <div className="flex   w-[651px] h-[527px] gap-[24px]">
               <div className="flex justify-between  w-[100px]  h-[526.55px] gap-[24px] flex-col items-center">
                 <div className="flex top-20  w-[19.28px] h-[30.53px]">
@@ -72,12 +86,12 @@ const Frame9 = () => {
                 </div>
               </div>
 
-              <div className="flex w-[527px] h-[527px] rounded-[24px] bg-white shadow-2xl">
+              <div className="flex w-full h-full  rounded-[24px] bg-white shadow-2xl">
                 <img className="flex w-full h-full  object-cover" src={img3} />
               </div>
             </div>
-            <div className="flex flex-col w-[695px] h-[519px] justify-between ">
-              <div className="flex flex-col w-[695px] h-[121px] justify-between ">
+            <div className="flex flex-col w-fit h-fit justify-between ">
+              <div className="flex flex-col w-full h-[121px] justify-between ">
                 <div className="flex w-full  ">
                   <p className="flex  font-montserrat text-[#060606] font-[500] text-[31px] leading-[38.4px] tracking-[.005em]">
                     Premium Valuetainment Leather Backpack
@@ -93,7 +107,7 @@ const Frame9 = () => {
                 </div>
               </div>
               <div className="flex flex-col  w-full h-[374px] justify-between">
-                <div className="flex  flex-col w-[300px] h-[193px] gap-[24px] ">
+                <div className="flex  flex-col w-full h-[193px] gap-[24px] ">
                   <div className="flex w-[175px] h-[29px]  justify-between">
                     <span className="flex font-montserrat font-[500] text-[24px] leading-[28.8px] tracking-[.005em] text-[#272312]">
                       Price:
@@ -102,13 +116,13 @@ const Frame9 = () => {
                       $199.95
                     </span>
                   </div>
-                  <div className="flex  w-[300px] h-[40px] justify-between ">
+                  <div className="flex  w-full h-[40px] justify-between ">
                     <div className="flex justify-center items-center">
                       <p className="flex font-inter font-[500] text-[20px] leading-[24px] tracking-[.005em] text-[#060606]">
                         Size
                       </p>
                     </div>
-                    <div className="flex  w-[241px] h-[40px] ">
+                    <div className="flex  w-full h-[40px] ">
                       <div className="flex w-[43px] h-[40px] border-[1px]  justify-center items-center">
                         <p className="flex font-inter font-[400] text-[16px] leading-[24px] tracking-[.005em] ">
                           S
