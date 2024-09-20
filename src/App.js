@@ -13,20 +13,20 @@ import Frame9 from './component/Frame9/Frame9';
 
 function App() {
   return (
-    <div>
+    <div className='flex flex-col flex-wrap'>
 
       {/* <A/> */}
     <Frame1/>
      <Frame2/>
     <Frame3/>
     <Frame4/>
-    {/* <Frame5/> */}
-    {/* <Frame6/> */}
-    {/* <Frame7/> */}
-    {/* <Frame8/> */}
-    {/* <Frame9/> */}
-    {/* <Frame10/> */}
-    {/* <Footer/>  */}
+    <Frame5/>
+    <Frame6/>
+    <Frame7/>
+    <Frame8/>
+    <Frame9/>
+    <Frame10/> 
+     <Footer/> 
     </div>
   );
 }

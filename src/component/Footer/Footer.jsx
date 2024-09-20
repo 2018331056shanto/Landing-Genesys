@@ -9,7 +9,7 @@ import frame from "../../asset/icon/Frame 1079.png";
 
 const Footer = () => {
   return (
-    <div className="flex w-[1920px] items-center justify-center h-[748px] bg-black">
+    <div className="flex w-full items-center justify-center min-h-screen bg-black">
       <div className="flex flex-col justify-between w-[1620px] h-[656px] gap-[120px] ">
         <div className="flex   w-full h-[152px] border-b-[1px]  border-white border-opacity-40  gap-[32px]">
           <div className="flex w-[672px] h-[120px]  ">

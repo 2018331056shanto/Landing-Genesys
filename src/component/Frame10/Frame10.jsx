@@ -6,8 +6,8 @@ import re from "../../asset/icon/exchange.svg";
 
 const Frame10 = () => {
   return (
-    <div className="flex w-[1920px] h-[352px] justify-center items-center bg-gradient-to-r from-[#EC3339] to-[#BB1117]">
-      <div className="flex w-[1595px] h-[152px] justify-between ">
+    <div className="flex w-full h-[352px] justify-center items-center bg-gradient-to-r from-[#EC3339] to-[#BB1117]">
+      <div className="flex w-full h-fit  justify-between ">
         <div className="flex flex-col justify-between w-[329px] h-[152px]">
           <div className="flex w-[40px] h-[40px]">
             <img className="flex object-cover w-full h-full" src={dl} />

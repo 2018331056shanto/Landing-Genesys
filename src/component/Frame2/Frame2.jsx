@@ -4,7 +4,7 @@ import Frame2Sub from "./Frame2Sub/Frame2Sub";
 
 const Frame2 = () => {
   return (
-    <div className="w-full relative min-h-[1450px] flex  flex-wrap bg-[#F6F5F5]">
+    <div className="w-full relative flex  flex-wrap bg-[#F6F5F5]">
       <div
         className="relative  flex-wrap w-fit flex flex-col  h-fit 
            
